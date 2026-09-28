@@ -64,3 +64,14 @@ factory-layout-optimizer-v2/
 ## 画面イメージ
 
 ![工場レイアウト最適化ツールの入力画面](docs/app_input.png)
+
+### 最適化結果（上位3候補）
+
+#### Rank 1
+![最適化結果 Rank 1](docs/app_result_rank1.png)
+
+#### Rank 2
+![最適化結果 Rank 2](docs/app_result_rank2.png)
+
+#### Rank 3
+![最適化結果 Rank 3](docs/app_result_rank3.png)
