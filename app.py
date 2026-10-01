@@ -95,13 +95,22 @@ def draw_layout(
         center_x = placed_area.x_m + area.width_m / 2
         center_y = placed_area.y_m + area.height_m / 2
 
+        # 名前が四角に収まるように、文字の大きさを決める。
+        # もとの決め方（幅だけを見る）に加えて、名前の長さも見る。
+        # 長い名前のときだけ小さくなり、大きくなることはない。
+        base_size = 5.0 if area.width_m <= 5 else 8.0
+        points_per_meter = 10.0
+        usable_points = area.width_m * points_per_meter * 0.75
+        font_size = min(base_size, usable_points / len(area.name))
+
         ax.text(
             center_x,
             center_y,
             area.name,
             ha="center",
             va="center",
-            fontsize=5 if area.width_m <= 5 else 8,
+            fontsize=max(3.5, font_size),
+            clip_on=True,
         )
 
     return fig
