@@ -5,4 +5,5 @@ __pycache__/
 .streamlit/secrets.toml
 .env
 .DS_Store
-Thumbs.dbdocs-html/
+Thumbs.db
+docs-html/
