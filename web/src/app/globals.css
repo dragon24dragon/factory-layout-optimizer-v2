@@ -110,3 +110,13 @@ button.primary:focus-visible, .field input:focus-visible, .panel summary:focus-v
 .c5 { fill: var(--c5); } .c6 { fill: var(--c6); } .c7 { fill: var(--c7); } .c8 { fill: var(--c8); } .c9 { fill: var(--c9); }
 
 .footer { margin-top: 48px; color: var(--mute); font-size: 0.85rem; border-top: 1px solid var(--line); padding-top: 16px; }
+
+.guide { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px 20px; }
+.steps { margin: 0; padding-left: 1.4em; display: grid; gap: 10px; }
+.steps li strong { display: block; }
+.steps li span { color: var(--mute); font-size: 0.93rem; }
+.guide-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 16px; }
+.guide-box { border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+.guide-box h3 { font-size: 1rem; }
+.guide-box p, .guide-box ul { margin: 4px 0 0; font-size: 0.93rem; }
+.guide-box ul { padding-left: 1.2em; }

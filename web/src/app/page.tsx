@@ -1,3 +1,4 @@
+import Guide from "@/components/Guide";
 import Optimizer from "@/components/Optimizer";
 import { projectName } from "@/lib/sampleData";
 
@@ -12,6 +13,8 @@ export default function Home() {
           ※ 入力データは、ChatGPT に発注者役を依頼した模擬ヒアリングで決めた架空の工場の条件です。実在の企業・実案件ではありません。
         </p>
       </header>
+
+      <Guide />
 
       <Optimizer />
 
