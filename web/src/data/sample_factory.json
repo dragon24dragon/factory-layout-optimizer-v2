@@ -1,0 +1,247 @@
+{
+    "project": {
+      "name": "工場レイアウト設計最適化ツール PoC",
+      "data_type": "sample",
+      "note": "自主制作PoC用の架空データ。固定物の位置と安全基準の一部は仮設定。"
+    },
+    "factory": {
+      "width_m": 50,
+      "height_m": 50
+    },
+    "fixed_objects": {
+      "receiving_entrance": {
+        "side": "west",
+        "center_y_m": 38,
+        "width_m": 6
+      },
+      "shipping_exit": {
+        "side": "east",
+        "center_y_m": 10,
+        "width_m": 6
+      },
+      "emergency_exits": [
+        {
+          "side": "north",
+          "center_x_m": 25
+        },
+        {
+          "side": "south",
+          "center_x_m": 25
+        },
+        {
+          "side": "west",
+          "center_y_m": 25
+        },
+        {
+          "side": "east",
+          "center_y_m": 25
+        }
+      ],
+      "pillar_grid": {
+        "columns": 4,
+        "rows": 4,
+        "start_x_m": 10,
+        "start_y_m": 10,
+        "spacing_x_m": 10,
+        "spacing_y_m": 10,
+        "pillar_width_m": 0.6,
+        "pillar_height_m": 0.6
+      },
+      "electrical_room": {
+        "x_m": 42,
+        "y_m": 44,
+        "width_m": 8,
+        "height_m": 6
+      }
+    },
+    "areas": [
+      {
+        "id": "raw_material_storage",
+        "name": "原材料置場",
+        "count": 1,
+        "width_m": 15,
+        "height_m": 10
+      },
+      {
+        "id": "cutting_machine",
+        "name": "切断機",
+        "count": 2,
+        "width_m": 4,
+        "height_m": 3
+      },
+      {
+        "id": "machining_center",
+        "name": "マシニングセンタ",
+        "count": 4,
+        "width_m": 5,
+        "height_m": 4
+      },
+      {
+        "id": "lathe",
+        "name": "旋盤",
+        "count": 3,
+        "width_m": 4,
+        "height_m": 3
+      },
+      {
+        "id": "welding_area",
+        "name": "溶接エリア",
+        "count": 2,
+        "width_m": 6,
+        "height_m": 5
+      },
+      {
+        "id": "inspection_area",
+        "name": "検査エリア",
+        "count": 1,
+        "width_m": 10,
+        "height_m": 8
+      },
+      {
+        "id": "wip_storage",
+        "name": "仕掛品置場",
+        "count": 2,
+        "width_m": 10,
+        "height_m": 6
+      },
+      {
+        "id": "packing_area",
+        "name": "梱包エリア",
+        "count": 1,
+        "width_m": 10,
+        "height_m": 10
+      },
+      {
+        "id": "finished_goods_storage",
+        "name": "完成品置場",
+        "count": 1,
+        "width_m": 15,
+        "height_m": 10
+      },
+      {
+        "id": "shipping_area",
+        "name": "出荷エリア",
+        "count": 1,
+        "width_m": 12,
+        "height_m": 10
+      }
+    ],
+    "process_patterns": [
+      {
+        "name": "パターンA",
+        "share_percent": 50,
+        "route": [
+          "raw_material_storage",
+          "cutting_machine",
+          "machining_center",
+          "wip_storage",
+          "inspection_area",
+          "packing_area",
+          "finished_goods_storage",
+          "shipping_area"
+        ]
+      },
+      {
+        "name": "パターンB",
+        "share_percent": 30,
+        "route": [
+          "raw_material_storage",
+          "cutting_machine",
+          "lathe",
+          "wip_storage",
+          "inspection_area",
+          "packing_area",
+          "finished_goods_storage",
+          "shipping_area"
+        ]
+      },
+      {
+        "name": "パターンC",
+        "share_percent": 20,
+        "route": [
+          "raw_material_storage",
+          "cutting_machine",
+          "machining_center_or_lathe",
+          "welding_area",
+          "wip_storage",
+          "inspection_area",
+          "packing_area",
+          "finished_goods_storage",
+          "shipping_area"
+        ]
+      }
+    ],
+    "daily_flows": [
+      {
+        "from": "raw_material_storage",
+        "to": "cutting_machine",
+        "trips_per_day": 30
+      },
+      {
+        "from": "cutting_machine",
+        "to": "machining_center",
+        "trips_per_day": 15
+      },
+      {
+        "from": "cutting_machine",
+        "to": "lathe",
+        "trips_per_day": 9
+      },
+      {
+        "from": "machining_center_or_lathe",
+        "to": "welding_area",
+        "trips_per_day": 6
+      },
+      {
+        "from": "machining_center_or_lathe",
+        "to": "wip_storage",
+        "trips_per_day": 24
+      },
+      {
+        "from": "welding_area",
+        "to": "wip_storage",
+        "trips_per_day": 6
+      },
+      {
+        "from": "wip_storage",
+        "to": "inspection_area",
+        "trips_per_day": 30
+      },
+      {
+        "from": "inspection_area",
+        "to": "packing_area",
+        "trips_per_day": 30
+      },
+      {
+        "from": "packing_area",
+        "to": "finished_goods_storage",
+        "trips_per_day": 30
+      },
+      {
+        "from": "finished_goods_storage",
+        "to": "shipping_area",
+        "trips_per_day": 30
+      }
+    ],
+    "safety_rules": {
+      "forklift_aisle_min_width_m": 3.0,
+      "pedestrian_aisle_min_width_m": 1.2,
+      "equipment_to_equipment_min_distance_m": 2.0,
+      "equipment_to_wall_or_pillar_min_distance_m": 1.0,
+      "emergency_exit_clearance_width_m": 3.0,
+      "emergency_exit_clearance_depth_m": 3.0,
+      "welding_to_raw_material_min_distance_m": 5.0,
+      "welding_to_finished_goods_min_distance_m": 5.0
+    },
+    "preferences": {
+      "raw_material_to_receiving_entrance_max_distance_m": 10.0,
+      "finished_goods_to_shipping_exit_max_distance_m": 10.0,
+      "inspection_and_packing_should_be_close": true
+    },
+    "result_requirements": {
+      "candidate_count": 5,
+      "ideal_processing_time_seconds": 30,
+      "target_processing_time_seconds": 60,
+      "maximum_processing_time_seconds": 120
+    }
+  }

@@ -1,0 +1,4102 @@
+{
+ "generated_by": "Python layout_optimizer",
+ "cases": [
+  {
+   "candidate_count": 5,
+   "wall": 1.0,
+   "gap": 2.0,
+   "ranking": [
+    {
+     "candidate_id": 5,
+     "score": 3653.517841772418,
+     "positions": {
+      "machining_center_2": [
+       1.0,
+       1.0
+      ],
+      "machining_center_3": [
+       8.0,
+       1.0
+      ],
+      "machining_center_4": [
+       15.0,
+       1.0
+      ],
+      "lathe_1": [
+       22.0,
+       1.0
+      ],
+      "lathe_2": [
+       28.0,
+       1.0
+      ],
+      "lathe_3": [
+       34.0,
+       1.0
+      ],
+      "welding_area_1": [
+       40.0,
+       1.0
+      ],
+      "welding_area_2": [
+       1.0,
+       8.0
+      ],
+      "inspection_area": [
+       9.0,
+       8.0
+      ],
+      "wip_storage_1": [
+       21.0,
+       8.0
+      ],
+      "wip_storage_2": [
+       33.0,
+       8.0
+      ],
+      "packing_area": [
+       1.0,
+       18.0
+      ],
+      "finished_goods_storage": [
+       13.0,
+       18.0
+      ],
+      "shipping_area": [
+       30.0,
+       18.0
+      ],
+      "raw_material_storage": [
+       1.0,
+       30.0
+      ],
+      "cutting_machine_1": [
+       18.0,
+       30.0
+      ],
+      "cutting_machine_2": [
+       24.0,
+       30.0
+      ],
+      "machining_center_1": [
+       30.0,
+       30.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 4,
+     "score": 4083.719840847912,
+     "positions": {
+      "machining_center_1": [
+       1.0,
+       1.0
+      ],
+      "machining_center_2": [
+       8.0,
+       1.0
+      ],
+      "machining_center_3": [
+       15.0,
+       1.0
+      ],
+      "machining_center_4": [
+       22.0,
+       1.0
+      ],
+      "lathe_1": [
+       29.0,
+       1.0
+      ],
+      "lathe_2": [
+       35.0,
+       1.0
+      ],
+      "lathe_3": [
+       41.0,
+       1.0
+      ],
+      "welding_area_1": [
+       1.0,
+       7.0
+      ],
+      "welding_area_2": [
+       9.0,
+       7.0
+      ],
+      "inspection_area": [
+       17.0,
+       7.0
+      ],
+      "wip_storage_1": [
+       29.0,
+       7.0
+      ],
+      "wip_storage_2": [
+       1.0,
+       17.0
+      ],
+      "packing_area": [
+       13.0,
+       17.0
+      ],
+      "finished_goods_storage": [
+       25.0,
+       17.0
+      ],
+      "shipping_area": [
+       1.0,
+       29.0
+      ],
+      "raw_material_storage": [
+       15.0,
+       29.0
+      ],
+      "cutting_machine_1": [
+       32.0,
+       29.0
+      ],
+      "cutting_machine_2": [
+       38.0,
+       29.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 3,
+     "score": 4388.251904477971,
+     "positions": {
+      "cutting_machine_2": [
+       1.0,
+       1.0
+      ],
+      "machining_center_1": [
+       7.0,
+       1.0
+      ],
+      "machining_center_2": [
+       14.0,
+       1.0
+      ],
+      "machining_center_3": [
+       21.0,
+       1.0
+      ],
+      "machining_center_4": [
+       28.0,
+       1.0
+      ],
+      "lathe_1": [
+       35.0,
+       1.0
+      ],
+      "lathe_2": [
+       41.0,
+       1.0
+      ],
+      "lathe_3": [
+       1.0,
+       7.0
+      ],
+      "welding_area_1": [
+       7.0,
+       7.0
+      ],
+      "welding_area_2": [
+       15.0,
+       7.0
+      ],
+      "inspection_area": [
+       23.0,
+       7.0
+      ],
+      "wip_storage_1": [
+       35.0,
+       7.0
+      ],
+      "wip_storage_2": [
+       1.0,
+       17.0
+      ],
+      "packing_area": [
+       13.0,
+       17.0
+      ],
+      "finished_goods_storage": [
+       25.0,
+       17.0
+      ],
+      "shipping_area": [
+       1.0,
+       29.0
+      ],
+      "raw_material_storage": [
+       15.0,
+       29.0
+      ],
+      "cutting_machine_1": [
+       32.0,
+       29.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 1,
+     "score": 4675.459679343286,
+     "positions": {
+      "raw_material_storage": [
+       1.0,
+       1.0
+      ],
+      "cutting_machine_1": [
+       18.0,
+       1.0
+      ],
+      "cutting_machine_2": [
+       24.0,
+       1.0
+      ],
+      "machining_center_1": [
+       30.0,
+       1.0
+      ],
+      "machining_center_2": [
+       37.0,
+       1.0
+      ],
+      "machining_center_3": [
+       44.0,
+       1.0
+      ],
+      "machining_center_4": [
+       1.0,
+       13.0
+      ],
+      "lathe_1": [
+       8.0,
+       13.0
+      ],
+      "lathe_2": [
+       14.0,
+       13.0
+      ],
+      "lathe_3": [
+       20.0,
+       13.0
+      ],
+      "welding_area_1": [
+       26.0,
+       13.0
+      ],
+      "welding_area_2": [
+       34.0,
+       13.0
+      ],
+      "inspection_area": [
+       1.0,
+       20.0
+      ],
+      "wip_storage_1": [
+       13.0,
+       20.0
+      ],
+      "wip_storage_2": [
+       25.0,
+       20.0
+      ],
+      "packing_area": [
+       37.0,
+       20.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       32.0
+      ],
+      "shipping_area": [
+       18.0,
+       32.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 2,
+     "score": 4820.286345895599,
+     "positions": {
+      "cutting_machine_1": [
+       1.0,
+       1.0
+      ],
+      "cutting_machine_2": [
+       7.0,
+       1.0
+      ],
+      "machining_center_1": [
+       13.0,
+       1.0
+      ],
+      "machining_center_2": [
+       20.0,
+       1.0
+      ],
+      "machining_center_3": [
+       27.0,
+       1.0
+      ],
+      "machining_center_4": [
+       34.0,
+       1.0
+      ],
+      "lathe_1": [
+       41.0,
+       1.0
+      ],
+      "lathe_2": [
+       1.0,
+       7.0
+      ],
+      "lathe_3": [
+       7.0,
+       7.0
+      ],
+      "welding_area_1": [
+       13.0,
+       7.0
+      ],
+      "welding_area_2": [
+       21.0,
+       7.0
+      ],
+      "inspection_area": [
+       29.0,
+       7.0
+      ],
+      "wip_storage_1": [
+       1.0,
+       17.0
+      ],
+      "wip_storage_2": [
+       13.0,
+       17.0
+      ],
+      "packing_area": [
+       25.0,
+       17.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       29.0
+      ],
+      "shipping_area": [
+       18.0,
+       29.0
+      ],
+      "raw_material_storage": [
+       32.0,
+       29.0
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "candidate_count": 1,
+   "wall": 1.0,
+   "gap": 2.0,
+   "ranking": [
+    {
+     "candidate_id": 1,
+     "score": 4675.459679343286,
+     "positions": {
+      "raw_material_storage": [
+       1.0,
+       1.0
+      ],
+      "cutting_machine_1": [
+       18.0,
+       1.0
+      ],
+      "cutting_machine_2": [
+       24.0,
+       1.0
+      ],
+      "machining_center_1": [
+       30.0,
+       1.0
+      ],
+      "machining_center_2": [
+       37.0,
+       1.0
+      ],
+      "machining_center_3": [
+       44.0,
+       1.0
+      ],
+      "machining_center_4": [
+       1.0,
+       13.0
+      ],
+      "lathe_1": [
+       8.0,
+       13.0
+      ],
+      "lathe_2": [
+       14.0,
+       13.0
+      ],
+      "lathe_3": [
+       20.0,
+       13.0
+      ],
+      "welding_area_1": [
+       26.0,
+       13.0
+      ],
+      "welding_area_2": [
+       34.0,
+       13.0
+      ],
+      "inspection_area": [
+       1.0,
+       20.0
+      ],
+      "wip_storage_1": [
+       13.0,
+       20.0
+      ],
+      "wip_storage_2": [
+       25.0,
+       20.0
+      ],
+      "packing_area": [
+       37.0,
+       20.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       32.0
+      ],
+      "shipping_area": [
+       18.0,
+       32.0
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "candidate_count": 10,
+   "wall": 1.0,
+   "gap": 2.0,
+   "ranking": [
+    {
+     "candidate_id": 5,
+     "score": 3653.517841772418,
+     "positions": {
+      "machining_center_2": [
+       1.0,
+       1.0
+      ],
+      "machining_center_3": [
+       8.0,
+       1.0
+      ],
+      "machining_center_4": [
+       15.0,
+       1.0
+      ],
+      "lathe_1": [
+       22.0,
+       1.0
+      ],
+      "lathe_2": [
+       28.0,
+       1.0
+      ],
+      "lathe_3": [
+       34.0,
+       1.0
+      ],
+      "welding_area_1": [
+       40.0,
+       1.0
+      ],
+      "welding_area_2": [
+       1.0,
+       8.0
+      ],
+      "inspection_area": [
+       9.0,
+       8.0
+      ],
+      "wip_storage_1": [
+       21.0,
+       8.0
+      ],
+      "wip_storage_2": [
+       33.0,
+       8.0
+      ],
+      "packing_area": [
+       1.0,
+       18.0
+      ],
+      "finished_goods_storage": [
+       13.0,
+       18.0
+      ],
+      "shipping_area": [
+       30.0,
+       18.0
+      ],
+      "raw_material_storage": [
+       1.0,
+       30.0
+      ],
+      "cutting_machine_1": [
+       18.0,
+       30.0
+      ],
+      "cutting_machine_2": [
+       24.0,
+       30.0
+      ],
+      "machining_center_1": [
+       30.0,
+       30.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 4,
+     "score": 4083.719840847912,
+     "positions": {
+      "machining_center_1": [
+       1.0,
+       1.0
+      ],
+      "machining_center_2": [
+       8.0,
+       1.0
+      ],
+      "machining_center_3": [
+       15.0,
+       1.0
+      ],
+      "machining_center_4": [
+       22.0,
+       1.0
+      ],
+      "lathe_1": [
+       29.0,
+       1.0
+      ],
+      "lathe_2": [
+       35.0,
+       1.0
+      ],
+      "lathe_3": [
+       41.0,
+       1.0
+      ],
+      "welding_area_1": [
+       1.0,
+       7.0
+      ],
+      "welding_area_2": [
+       9.0,
+       7.0
+      ],
+      "inspection_area": [
+       17.0,
+       7.0
+      ],
+      "wip_storage_1": [
+       29.0,
+       7.0
+      ],
+      "wip_storage_2": [
+       1.0,
+       17.0
+      ],
+      "packing_area": [
+       13.0,
+       17.0
+      ],
+      "finished_goods_storage": [
+       25.0,
+       17.0
+      ],
+      "shipping_area": [
+       1.0,
+       29.0
+      ],
+      "raw_material_storage": [
+       15.0,
+       29.0
+      ],
+      "cutting_machine_1": [
+       32.0,
+       29.0
+      ],
+      "cutting_machine_2": [
+       38.0,
+       29.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 10,
+     "score": 4379.679383227785,
+     "positions": {
+      "lathe_3": [
+       1.0,
+       1.0
+      ],
+      "welding_area_1": [
+       7.0,
+       1.0
+      ],
+      "welding_area_2": [
+       15.0,
+       1.0
+      ],
+      "inspection_area": [
+       23.0,
+       1.0
+      ],
+      "wip_storage_1": [
+       35.0,
+       1.0
+      ],
+      "wip_storage_2": [
+       1.0,
+       11.0
+      ],
+      "packing_area": [
+       13.0,
+       11.0
+      ],
+      "finished_goods_storage": [
+       25.0,
+       11.0
+      ],
+      "shipping_area": [
+       1.0,
+       23.0
+      ],
+      "raw_material_storage": [
+       15.0,
+       23.0
+      ],
+      "cutting_machine_1": [
+       32.0,
+       23.0
+      ],
+      "cutting_machine_2": [
+       38.0,
+       23.0
+      ],
+      "machining_center_1": [
+       44.0,
+       23.0
+      ],
+      "machining_center_2": [
+       1.0,
+       35.0
+      ],
+      "machining_center_3": [
+       8.0,
+       35.0
+      ],
+      "machining_center_4": [
+       15.0,
+       35.0
+      ],
+      "lathe_1": [
+       22.0,
+       35.0
+      ],
+      "lathe_2": [
+       28.0,
+       35.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 3,
+     "score": 4388.251904477971,
+     "positions": {
+      "cutting_machine_2": [
+       1.0,
+       1.0
+      ],
+      "machining_center_1": [
+       7.0,
+       1.0
+      ],
+      "machining_center_2": [
+       14.0,
+       1.0
+      ],
+      "machining_center_3": [
+       21.0,
+       1.0
+      ],
+      "machining_center_4": [
+       28.0,
+       1.0
+      ],
+      "lathe_1": [
+       35.0,
+       1.0
+      ],
+      "lathe_2": [
+       41.0,
+       1.0
+      ],
+      "lathe_3": [
+       1.0,
+       7.0
+      ],
+      "welding_area_1": [
+       7.0,
+       7.0
+      ],
+      "welding_area_2": [
+       15.0,
+       7.0
+      ],
+      "inspection_area": [
+       23.0,
+       7.0
+      ],
+      "wip_storage_1": [
+       35.0,
+       7.0
+      ],
+      "wip_storage_2": [
+       1.0,
+       17.0
+      ],
+      "packing_area": [
+       13.0,
+       17.0
+      ],
+      "finished_goods_storage": [
+       25.0,
+       17.0
+      ],
+      "shipping_area": [
+       1.0,
+       29.0
+      ],
+      "raw_material_storage": [
+       15.0,
+       29.0
+      ],
+      "cutting_machine_1": [
+       32.0,
+       29.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 1,
+     "score": 4675.459679343286,
+     "positions": {
+      "raw_material_storage": [
+       1.0,
+       1.0
+      ],
+      "cutting_machine_1": [
+       18.0,
+       1.0
+      ],
+      "cutting_machine_2": [
+       24.0,
+       1.0
+      ],
+      "machining_center_1": [
+       30.0,
+       1.0
+      ],
+      "machining_center_2": [
+       37.0,
+       1.0
+      ],
+      "machining_center_3": [
+       44.0,
+       1.0
+      ],
+      "machining_center_4": [
+       1.0,
+       13.0
+      ],
+      "lathe_1": [
+       8.0,
+       13.0
+      ],
+      "lathe_2": [
+       14.0,
+       13.0
+      ],
+      "lathe_3": [
+       20.0,
+       13.0
+      ],
+      "welding_area_1": [
+       26.0,
+       13.0
+      ],
+      "welding_area_2": [
+       34.0,
+       13.0
+      ],
+      "inspection_area": [
+       1.0,
+       20.0
+      ],
+      "wip_storage_1": [
+       13.0,
+       20.0
+      ],
+      "wip_storage_2": [
+       25.0,
+       20.0
+      ],
+      "packing_area": [
+       37.0,
+       20.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       32.0
+      ],
+      "shipping_area": [
+       18.0,
+       32.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 9,
+     "score": 4808.947573833667,
+     "positions": {
+      "lathe_2": [
+       1.0,
+       1.0
+      ],
+      "lathe_3": [
+       7.0,
+       1.0
+      ],
+      "welding_area_1": [
+       13.0,
+       1.0
+      ],
+      "welding_area_2": [
+       21.0,
+       1.0
+      ],
+      "inspection_area": [
+       29.0,
+       1.0
+      ],
+      "wip_storage_1": [
+       1.0,
+       11.0
+      ],
+      "wip_storage_2": [
+       13.0,
+       11.0
+      ],
+      "packing_area": [
+       25.0,
+       11.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       23.0
+      ],
+      "shipping_area": [
+       18.0,
+       23.0
+      ],
+      "raw_material_storage": [
+       32.0,
+       23.0
+      ],
+      "cutting_machine_1": [
+       1.0,
+       35.0
+      ],
+      "cutting_machine_2": [
+       7.0,
+       35.0
+      ],
+      "machining_center_1": [
+       13.0,
+       35.0
+      ],
+      "machining_center_2": [
+       20.0,
+       35.0
+      ],
+      "machining_center_3": [
+       27.0,
+       35.0
+      ],
+      "machining_center_4": [
+       34.0,
+       35.0
+      ],
+      "lathe_1": [
+       41.0,
+       35.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 2,
+     "score": 4820.286345895599,
+     "positions": {
+      "cutting_machine_1": [
+       1.0,
+       1.0
+      ],
+      "cutting_machine_2": [
+       7.0,
+       1.0
+      ],
+      "machining_center_1": [
+       13.0,
+       1.0
+      ],
+      "machining_center_2": [
+       20.0,
+       1.0
+      ],
+      "machining_center_3": [
+       27.0,
+       1.0
+      ],
+      "machining_center_4": [
+       34.0,
+       1.0
+      ],
+      "lathe_1": [
+       41.0,
+       1.0
+      ],
+      "lathe_2": [
+       1.0,
+       7.0
+      ],
+      "lathe_3": [
+       7.0,
+       7.0
+      ],
+      "welding_area_1": [
+       13.0,
+       7.0
+      ],
+      "welding_area_2": [
+       21.0,
+       7.0
+      ],
+      "inspection_area": [
+       29.0,
+       7.0
+      ],
+      "wip_storage_1": [
+       1.0,
+       17.0
+      ],
+      "wip_storage_2": [
+       13.0,
+       17.0
+      ],
+      "packing_area": [
+       25.0,
+       17.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       29.0
+      ],
+      "shipping_area": [
+       18.0,
+       29.0
+      ],
+      "raw_material_storage": [
+       32.0,
+       29.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 8,
+     "score": 4984.819835920731,
+     "positions": {
+      "lathe_1": [
+       1.0,
+       1.0
+      ],
+      "lathe_2": [
+       7.0,
+       1.0
+      ],
+      "lathe_3": [
+       13.0,
+       1.0
+      ],
+      "welding_area_1": [
+       19.0,
+       1.0
+      ],
+      "welding_area_2": [
+       27.0,
+       1.0
+      ],
+      "inspection_area": [
+       35.0,
+       1.0
+      ],
+      "wip_storage_1": [
+       1.0,
+       11.0
+      ],
+      "wip_storage_2": [
+       13.0,
+       11.0
+      ],
+      "packing_area": [
+       25.0,
+       11.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       23.0
+      ],
+      "shipping_area": [
+       18.0,
+       23.0
+      ],
+      "raw_material_storage": [
+       32.0,
+       23.0
+      ],
+      "cutting_machine_1": [
+       1.0,
+       35.0
+      ],
+      "cutting_machine_2": [
+       7.0,
+       35.0
+      ],
+      "machining_center_1": [
+       13.0,
+       35.0
+      ],
+      "machining_center_2": [
+       20.0,
+       35.0
+      ],
+      "machining_center_3": [
+       27.0,
+       35.0
+      ],
+      "machining_center_4": [
+       34.0,
+       35.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 7,
+     "score": 5484.064274198276,
+     "positions": {
+      "machining_center_4": [
+       1.0,
+       1.0
+      ],
+      "lathe_1": [
+       8.0,
+       1.0
+      ],
+      "lathe_2": [
+       14.0,
+       1.0
+      ],
+      "lathe_3": [
+       20.0,
+       1.0
+      ],
+      "welding_area_1": [
+       26.0,
+       1.0
+      ],
+      "welding_area_2": [
+       34.0,
+       1.0
+      ],
+      "inspection_area": [
+       1.0,
+       8.0
+      ],
+      "wip_storage_1": [
+       13.0,
+       8.0
+      ],
+      "wip_storage_2": [
+       25.0,
+       8.0
+      ],
+      "packing_area": [
+       37.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       20.0
+      ],
+      "shipping_area": [
+       18.0,
+       20.0
+      ],
+      "raw_material_storage": [
+       32.0,
+       20.0
+      ],
+      "cutting_machine_1": [
+       1.0,
+       32.0
+      ],
+      "cutting_machine_2": [
+       7.0,
+       32.0
+      ],
+      "machining_center_1": [
+       13.0,
+       32.0
+      ],
+      "machining_center_2": [
+       20.0,
+       32.0
+      ],
+      "machining_center_3": [
+       27.0,
+       32.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 6,
+     "score": 5528.095724323204,
+     "positions": {
+      "machining_center_3": [
+       1.0,
+       1.0
+      ],
+      "machining_center_4": [
+       8.0,
+       1.0
+      ],
+      "lathe_1": [
+       15.0,
+       1.0
+      ],
+      "lathe_2": [
+       21.0,
+       1.0
+      ],
+      "lathe_3": [
+       27.0,
+       1.0
+      ],
+      "welding_area_1": [
+       33.0,
+       1.0
+      ],
+      "welding_area_2": [
+       41.0,
+       1.0
+      ],
+      "inspection_area": [
+       1.0,
+       8.0
+      ],
+      "wip_storage_1": [
+       13.0,
+       8.0
+      ],
+      "wip_storage_2": [
+       25.0,
+       8.0
+      ],
+      "packing_area": [
+       37.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       1.0,
+       20.0
+      ],
+      "shipping_area": [
+       18.0,
+       20.0
+      ],
+      "raw_material_storage": [
+       32.0,
+       20.0
+      ],
+      "cutting_machine_1": [
+       1.0,
+       32.0
+      ],
+      "cutting_machine_2": [
+       7.0,
+       32.0
+      ],
+      "machining_center_1": [
+       13.0,
+       32.0
+      ],
+      "machining_center_2": [
+       20.0,
+       32.0
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "candidate_count": 20,
+   "wall": 0.0,
+   "gap": 0.0,
+   "ranking": [
+    {
+     "candidate_id": 8,
+     "score": 3352.3592299819493,
+     "positions": {
+      "lathe_1": [
+       0.0,
+       0.0
+      ],
+      "lathe_2": [
+       4.0,
+       0.0
+      ],
+      "lathe_3": [
+       8.0,
+       0.0
+      ],
+      "welding_area_1": [
+       12.0,
+       0.0
+      ],
+      "welding_area_2": [
+       18.0,
+       0.0
+      ],
+      "inspection_area": [
+       24.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       34.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       0.0,
+       8.0
+      ],
+      "packing_area": [
+       10.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       20.0,
+       8.0
+      ],
+      "shipping_area": [
+       35.0,
+       8.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       18.0
+      ],
+      "machining_center_1": [
+       23.0,
+       18.0
+      ],
+      "machining_center_2": [
+       28.0,
+       18.0
+      ],
+      "machining_center_3": [
+       33.0,
+       18.0
+      ],
+      "machining_center_4": [
+       38.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 11,
+     "score": 3382.341338109251,
+     "positions": {
+      "welding_area_1": [
+       0.0,
+       0.0
+      ],
+      "welding_area_2": [
+       6.0,
+       0.0
+      ],
+      "inspection_area": [
+       12.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       22.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       32.0,
+       0.0
+      ],
+      "packing_area": [
+       0.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       10.0,
+       8.0
+      ],
+      "shipping_area": [
+       25.0,
+       8.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       18.0
+      ],
+      "machining_center_1": [
+       23.0,
+       18.0
+      ],
+      "machining_center_2": [
+       28.0,
+       18.0
+      ],
+      "machining_center_3": [
+       33.0,
+       18.0
+      ],
+      "machining_center_4": [
+       38.0,
+       18.0
+      ],
+      "lathe_1": [
+       43.0,
+       18.0
+      ],
+      "lathe_2": [
+       0.0,
+       28.0
+      ],
+      "lathe_3": [
+       4.0,
+       28.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 1,
+     "score": 3416.686151210237,
+     "positions": {
+      "raw_material_storage": [
+       0.0,
+       0.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       0.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       0.0
+      ],
+      "machining_center_1": [
+       23.0,
+       0.0
+      ],
+      "machining_center_2": [
+       28.0,
+       0.0
+      ],
+      "machining_center_3": [
+       33.0,
+       0.0
+      ],
+      "machining_center_4": [
+       38.0,
+       0.0
+      ],
+      "lathe_1": [
+       43.0,
+       0.0
+      ],
+      "lathe_2": [
+       0.0,
+       10.0
+      ],
+      "lathe_3": [
+       4.0,
+       10.0
+      ],
+      "welding_area_1": [
+       8.0,
+       10.0
+      ],
+      "welding_area_2": [
+       14.0,
+       10.0
+      ],
+      "inspection_area": [
+       20.0,
+       10.0
+      ],
+      "wip_storage_1": [
+       30.0,
+       10.0
+      ],
+      "wip_storage_2": [
+       40.0,
+       10.0
+      ],
+      "packing_area": [
+       0.0,
+       18.0
+      ],
+      "finished_goods_storage": [
+       10.0,
+       18.0
+      ],
+      "shipping_area": [
+       25.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 10,
+     "score": 3473.184757774671,
+     "positions": {
+      "lathe_3": [
+       0.0,
+       0.0
+      ],
+      "welding_area_1": [
+       4.0,
+       0.0
+      ],
+      "welding_area_2": [
+       10.0,
+       0.0
+      ],
+      "inspection_area": [
+       16.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       26.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       36.0,
+       0.0
+      ],
+      "packing_area": [
+       0.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       10.0,
+       8.0
+      ],
+      "shipping_area": [
+       25.0,
+       8.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       18.0
+      ],
+      "machining_center_1": [
+       23.0,
+       18.0
+      ],
+      "machining_center_2": [
+       28.0,
+       18.0
+      ],
+      "machining_center_3": [
+       33.0,
+       18.0
+      ],
+      "machining_center_4": [
+       38.0,
+       18.0
+      ],
+      "lathe_1": [
+       43.0,
+       18.0
+      ],
+      "lathe_2": [
+       0.0,
+       28.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 9,
+     "score": 3550.8925189063193,
+     "positions": {
+      "lathe_2": [
+       0.0,
+       0.0
+      ],
+      "lathe_3": [
+       4.0,
+       0.0
+      ],
+      "welding_area_1": [
+       8.0,
+       0.0
+      ],
+      "welding_area_2": [
+       14.0,
+       0.0
+      ],
+      "inspection_area": [
+       20.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       30.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       40.0,
+       0.0
+      ],
+      "packing_area": [
+       0.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       10.0,
+       8.0
+      ],
+      "shipping_area": [
+       25.0,
+       8.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       18.0
+      ],
+      "machining_center_1": [
+       23.0,
+       18.0
+      ],
+      "machining_center_2": [
+       28.0,
+       18.0
+      ],
+      "machining_center_3": [
+       33.0,
+       18.0
+      ],
+      "machining_center_4": [
+       38.0,
+       18.0
+      ],
+      "lathe_1": [
+       43.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 7,
+     "score": 3560.5343625199866,
+     "positions": {
+      "machining_center_4": [
+       0.0,
+       0.0
+      ],
+      "lathe_1": [
+       5.0,
+       0.0
+      ],
+      "lathe_2": [
+       9.0,
+       0.0
+      ],
+      "lathe_3": [
+       13.0,
+       0.0
+      ],
+      "welding_area_1": [
+       17.0,
+       0.0
+      ],
+      "welding_area_2": [
+       23.0,
+       0.0
+      ],
+      "inspection_area": [
+       29.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       39.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       0.0,
+       8.0
+      ],
+      "packing_area": [
+       10.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       20.0,
+       8.0
+      ],
+      "shipping_area": [
+       35.0,
+       8.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       18.0
+      ],
+      "machining_center_1": [
+       23.0,
+       18.0
+      ],
+      "machining_center_2": [
+       28.0,
+       18.0
+      ],
+      "machining_center_3": [
+       33.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 15,
+     "score": 3570.198267359222,
+     "positions": {
+      "wip_storage_2": [
+       0.0,
+       0.0
+      ],
+      "packing_area": [
+       10.0,
+       0.0
+      ],
+      "finished_goods_storage": [
+       20.0,
+       0.0
+      ],
+      "shipping_area": [
+       35.0,
+       0.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       10.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       10.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       10.0
+      ],
+      "machining_center_1": [
+       23.0,
+       10.0
+      ],
+      "machining_center_2": [
+       28.0,
+       10.0
+      ],
+      "machining_center_3": [
+       33.0,
+       10.0
+      ],
+      "machining_center_4": [
+       38.0,
+       10.0
+      ],
+      "lathe_1": [
+       43.0,
+       10.0
+      ],
+      "lathe_2": [
+       0.0,
+       20.0
+      ],
+      "lathe_3": [
+       4.0,
+       20.0
+      ],
+      "welding_area_1": [
+       8.0,
+       20.0
+      ],
+      "welding_area_2": [
+       14.0,
+       20.0
+      ],
+      "inspection_area": [
+       20.0,
+       20.0
+      ],
+      "wip_storage_1": [
+       30.0,
+       20.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 16,
+     "score": 3586.3216386744207,
+     "positions": {
+      "packing_area": [
+       0.0,
+       0.0
+      ],
+      "finished_goods_storage": [
+       10.0,
+       0.0
+      ],
+      "shipping_area": [
+       25.0,
+       0.0
+      ],
+      "raw_material_storage": [
+       0.0,
+       10.0
+      ],
+      "cutting_machine_1": [
+       15.0,
+       10.0
+      ],
+      "cutting_machine_2": [
+       19.0,
+       10.0
+      ],
+      "machining_center_1": [
+       23.0,
+       10.0
+      ],
+      "machining_center_2": [
+       28.0,
+       10.0
+      ],
+      "machining_center_3": [
+       33.0,
+       10.0
+      ],
+      "machining_center_4": [
+       38.0,
+       10.0
+      ],
+      "lathe_1": [
+       43.0,
+       10.0
+      ],
+      "lathe_2": [
+       0.0,
+       20.0
+      ],
+      "lathe_3": [
+       4.0,
+       20.0
+      ],
+      "welding_area_1": [
+       8.0,
+       20.0
+      ],
+      "welding_area_2": [
+       14.0,
+       20.0
+      ],
+      "inspection_area": [
+       20.0,
+       20.0
+      ],
+      "wip_storage_1": [
+       30.0,
+       20.0
+      ],
+      "wip_storage_2": [
+       40.0,
+       20.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 18,
+     "score": 4074.022006103227,
+     "positions": {
+      "shipping_area": [
+       0.0,
+       0.0
+      ],
+      "raw_material_storage": [
+       12.0,
+       0.0
+      ],
+      "cutting_machine_1": [
+       27.0,
+       0.0
+      ],
+      "cutting_machine_2": [
+       31.0,
+       0.0
+      ],
+      "machining_center_1": [
+       35.0,
+       0.0
+      ],
+      "machining_center_2": [
+       40.0,
+       0.0
+      ],
+      "machining_center_3": [
+       45.0,
+       0.0
+      ],
+      "machining_center_4": [
+       0.0,
+       10.0
+      ],
+      "lathe_1": [
+       5.0,
+       10.0
+      ],
+      "lathe_2": [
+       9.0,
+       10.0
+      ],
+      "lathe_3": [
+       13.0,
+       10.0
+      ],
+      "welding_area_1": [
+       17.0,
+       10.0
+      ],
+      "welding_area_2": [
+       23.0,
+       10.0
+      ],
+      "inspection_area": [
+       29.0,
+       10.0
+      ],
+      "wip_storage_1": [
+       39.0,
+       10.0
+      ],
+      "wip_storage_2": [
+       0.0,
+       18.0
+      ],
+      "packing_area": [
+       10.0,
+       18.0
+      ],
+      "finished_goods_storage": [
+       20.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 6,
+     "score": 4286.893938682624,
+     "positions": {
+      "machining_center_3": [
+       0.0,
+       0.0
+      ],
+      "machining_center_4": [
+       5.0,
+       0.0
+      ],
+      "lathe_1": [
+       10.0,
+       0.0
+      ],
+      "lathe_2": [
+       14.0,
+       0.0
+      ],
+      "lathe_3": [
+       18.0,
+       0.0
+      ],
+      "welding_area_1": [
+       22.0,
+       0.0
+      ],
+      "welding_area_2": [
+       28.0,
+       0.0
+      ],
+      "inspection_area": [
+       34.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       0.0,
+       8.0
+      ],
+      "wip_storage_2": [
+       10.0,
+       8.0
+      ],
+      "packing_area": [
+       20.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       30.0,
+       8.0
+      ],
+      "shipping_area": [
+       0.0,
+       18.0
+      ],
+      "raw_material_storage": [
+       12.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       27.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       31.0,
+       18.0
+      ],
+      "machining_center_1": [
+       35.0,
+       18.0
+      ],
+      "machining_center_2": [
+       40.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 4,
+     "score": 4323.424860953147,
+     "positions": {
+      "machining_center_1": [
+       0.0,
+       0.0
+      ],
+      "machining_center_2": [
+       5.0,
+       0.0
+      ],
+      "machining_center_3": [
+       10.0,
+       0.0
+      ],
+      "machining_center_4": [
+       15.0,
+       0.0
+      ],
+      "lathe_1": [
+       20.0,
+       0.0
+      ],
+      "lathe_2": [
+       24.0,
+       0.0
+      ],
+      "lathe_3": [
+       28.0,
+       0.0
+      ],
+      "welding_area_1": [
+       32.0,
+       0.0
+      ],
+      "welding_area_2": [
+       38.0,
+       0.0
+      ],
+      "inspection_area": [
+       0.0,
+       5.0
+      ],
+      "wip_storage_1": [
+       10.0,
+       5.0
+      ],
+      "wip_storage_2": [
+       20.0,
+       5.0
+      ],
+      "packing_area": [
+       30.0,
+       5.0
+      ],
+      "finished_goods_storage": [
+       0.0,
+       15.0
+      ],
+      "shipping_area": [
+       15.0,
+       15.0
+      ],
+      "raw_material_storage": [
+       27.0,
+       15.0
+      ],
+      "cutting_machine_1": [
+       42.0,
+       15.0
+      ],
+      "cutting_machine_2": [
+       46.0,
+       15.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 17,
+     "score": 4341.142035241233,
+     "positions": {
+      "finished_goods_storage": [
+       0.0,
+       0.0
+      ],
+      "shipping_area": [
+       15.0,
+       0.0
+      ],
+      "raw_material_storage": [
+       27.0,
+       0.0
+      ],
+      "cutting_machine_1": [
+       42.0,
+       0.0
+      ],
+      "cutting_machine_2": [
+       46.0,
+       0.0
+      ],
+      "machining_center_1": [
+       0.0,
+       10.0
+      ],
+      "machining_center_2": [
+       5.0,
+       10.0
+      ],
+      "machining_center_3": [
+       10.0,
+       10.0
+      ],
+      "machining_center_4": [
+       15.0,
+       10.0
+      ],
+      "lathe_1": [
+       20.0,
+       10.0
+      ],
+      "lathe_2": [
+       24.0,
+       10.0
+      ],
+      "lathe_3": [
+       28.0,
+       10.0
+      ],
+      "welding_area_1": [
+       32.0,
+       10.0
+      ],
+      "welding_area_2": [
+       38.0,
+       10.0
+      ],
+      "inspection_area": [
+       0.0,
+       15.0
+      ],
+      "wip_storage_1": [
+       10.0,
+       15.0
+      ],
+      "wip_storage_2": [
+       20.0,
+       15.0
+      ],
+      "packing_area": [
+       30.0,
+       15.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 3,
+     "score": 4442.947068957801,
+     "positions": {
+      "cutting_machine_2": [
+       0.0,
+       0.0
+      ],
+      "machining_center_1": [
+       4.0,
+       0.0
+      ],
+      "machining_center_2": [
+       9.0,
+       0.0
+      ],
+      "machining_center_3": [
+       14.0,
+       0.0
+      ],
+      "machining_center_4": [
+       19.0,
+       0.0
+      ],
+      "lathe_1": [
+       24.0,
+       0.0
+      ],
+      "lathe_2": [
+       28.0,
+       0.0
+      ],
+      "lathe_3": [
+       32.0,
+       0.0
+      ],
+      "welding_area_1": [
+       36.0,
+       0.0
+      ],
+      "welding_area_2": [
+       42.0,
+       0.0
+      ],
+      "inspection_area": [
+       0.0,
+       5.0
+      ],
+      "wip_storage_1": [
+       10.0,
+       5.0
+      ],
+      "wip_storage_2": [
+       20.0,
+       5.0
+      ],
+      "packing_area": [
+       30.0,
+       5.0
+      ],
+      "finished_goods_storage": [
+       0.0,
+       15.0
+      ],
+      "shipping_area": [
+       15.0,
+       15.0
+      ],
+      "raw_material_storage": [
+       27.0,
+       15.0
+      ],
+      "cutting_machine_1": [
+       42.0,
+       15.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 13,
+     "score": 4565.691282817982,
+     "positions": {
+      "inspection_area": [
+       0.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       10.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       20.0,
+       0.0
+      ],
+      "packing_area": [
+       30.0,
+       0.0
+      ],
+      "finished_goods_storage": [
+       0.0,
+       10.0
+      ],
+      "shipping_area": [
+       15.0,
+       10.0
+      ],
+      "raw_material_storage": [
+       27.0,
+       10.0
+      ],
+      "cutting_machine_1": [
+       42.0,
+       10.0
+      ],
+      "cutting_machine_2": [
+       46.0,
+       10.0
+      ],
+      "machining_center_1": [
+       0.0,
+       20.0
+      ],
+      "machining_center_2": [
+       5.0,
+       20.0
+      ],
+      "machining_center_3": [
+       10.0,
+       20.0
+      ],
+      "machining_center_4": [
+       15.0,
+       20.0
+      ],
+      "lathe_1": [
+       20.0,
+       20.0
+      ],
+      "lathe_2": [
+       24.0,
+       20.0
+      ],
+      "lathe_3": [
+       28.0,
+       20.0
+      ],
+      "welding_area_1": [
+       32.0,
+       20.0
+      ],
+      "welding_area_2": [
+       38.0,
+       20.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 5,
+     "score": 4572.932745855194,
+     "positions": {
+      "machining_center_2": [
+       0.0,
+       0.0
+      ],
+      "machining_center_3": [
+       5.0,
+       0.0
+      ],
+      "machining_center_4": [
+       10.0,
+       0.0
+      ],
+      "lathe_1": [
+       15.0,
+       0.0
+      ],
+      "lathe_2": [
+       19.0,
+       0.0
+      ],
+      "lathe_3": [
+       23.0,
+       0.0
+      ],
+      "welding_area_1": [
+       27.0,
+       0.0
+      ],
+      "welding_area_2": [
+       33.0,
+       0.0
+      ],
+      "inspection_area": [
+       39.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       0.0,
+       8.0
+      ],
+      "wip_storage_2": [
+       10.0,
+       8.0
+      ],
+      "packing_area": [
+       20.0,
+       8.0
+      ],
+      "finished_goods_storage": [
+       30.0,
+       8.0
+      ],
+      "shipping_area": [
+       0.0,
+       18.0
+      ],
+      "raw_material_storage": [
+       12.0,
+       18.0
+      ],
+      "cutting_machine_1": [
+       27.0,
+       18.0
+      ],
+      "cutting_machine_2": [
+       31.0,
+       18.0
+      ],
+      "machining_center_1": [
+       35.0,
+       18.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 14,
+     "score": 4634.174711840966,
+     "positions": {
+      "wip_storage_1": [
+       0.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       10.0,
+       0.0
+      ],
+      "packing_area": [
+       20.0,
+       0.0
+      ],
+      "finished_goods_storage": [
+       30.0,
+       0.0
+      ],
+      "shipping_area": [
+       0.0,
+       10.0
+      ],
+      "raw_material_storage": [
+       12.0,
+       10.0
+      ],
+      "cutting_machine_1": [
+       27.0,
+       10.0
+      ],
+      "cutting_machine_2": [
+       31.0,
+       10.0
+      ],
+      "machining_center_1": [
+       35.0,
+       10.0
+      ],
+      "machining_center_2": [
+       40.0,
+       10.0
+      ],
+      "machining_center_3": [
+       45.0,
+       10.0
+      ],
+      "machining_center_4": [
+       0.0,
+       20.0
+      ],
+      "lathe_1": [
+       5.0,
+       20.0
+      ],
+      "lathe_2": [
+       9.0,
+       20.0
+      ],
+      "lathe_3": [
+       13.0,
+       20.0
+      ],
+      "welding_area_1": [
+       17.0,
+       20.0
+      ],
+      "welding_area_2": [
+       23.0,
+       20.0
+      ],
+      "inspection_area": [
+       29.0,
+       20.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 12,
+     "score": 4745.867880679381,
+     "positions": {
+      "welding_area_2": [
+       0.0,
+       0.0
+      ],
+      "inspection_area": [
+       6.0,
+       0.0
+      ],
+      "wip_storage_1": [
+       16.0,
+       0.0
+      ],
+      "wip_storage_2": [
+       26.0,
+       0.0
+      ],
+      "packing_area": [
+       36.0,
+       0.0
+      ],
+      "finished_goods_storage": [
+       0.0,
+       10.0
+      ],
+      "shipping_area": [
+       15.0,
+       10.0
+      ],
+      "raw_material_storage": [
+       27.0,
+       10.0
+      ],
+      "cutting_machine_1": [
+       42.0,
+       10.0
+      ],
+      "cutting_machine_2": [
+       46.0,
+       10.0
+      ],
+      "machining_center_1": [
+       0.0,
+       20.0
+      ],
+      "machining_center_2": [
+       5.0,
+       20.0
+      ],
+      "machining_center_3": [
+       10.0,
+       20.0
+      ],
+      "machining_center_4": [
+       15.0,
+       20.0
+      ],
+      "lathe_1": [
+       20.0,
+       20.0
+      ],
+      "lathe_2": [
+       24.0,
+       20.0
+      ],
+      "lathe_3": [
+       28.0,
+       20.0
+      ],
+      "welding_area_1": [
+       32.0,
+       20.0
+      ]
+     }
+    },
+    {
+     "candidate_id": 2,
+     "score": 4874.5465997539795,
+     "positions": {
+      "cutting_machine_1": [
+       0.0,
+       0.0
+      ],
+      "cutting_machine_2": [
+       4.0,
+       0.0
+      ],
+      "machining_center_1": [
+       8.0,
+       0.0
+      ],
+      "machining_center_2": [
+       13.0,
+       0.0
+      ],
+      "machining_center_3": [
+       18.0,
+       0.0
+      ],
+      "machining_center_4": [
+       23.0,
+       0.0
+      ],
+      "lathe_1": [
+       28.0,
+       0.0
+      ],
+      "lathe_2": [
+       32.0,
+       0.0
+      ],
+      "lathe_3": [
+       36.0,
+       0.0
+      ],
+      "welding_area_1": [
+       40.0,
+       0.0
+      ],
+      "welding_area_2": [
+       0.0,
+       5.0
+      ],
+      "inspection_area": [
+       6.0,
+       5.0
+      ],
+      "wip_storage_1": [
+       16.0,
+       5.0
+      ],
+      "wip_storage_2": [
+       26.0,
+       5.0
+      ],
+      "packing_area": [
+       36.0,
+       5.0
+      ],
+      "finished_goods_storage": [
+       0.0,
+       15.0
+      ],
+      "shipping_area": [
+       15.0,
+       15.0
+      ],
+      "raw_material_storage": [
+       27.0,
+       15.0
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "candidate_count": 8,
+   "wall": 2.5,
+   "gap": 3.0,
+   "error": "原材料置場を配置できません。工場内のスペースが不足しています。"
+  },
+  {
+   "candidate_count": 18,
+   "wall": 1.5,
+   "gap": 1.0,
+   "ranking": [
+    {
+     "candidate_id": 4,
+     "score": 3388.923502971238,
+     "positions": {
+      "machining_center_1": [
+       1.5,
+       1.5
+      ],
+      "machining_center_2": [
+       7.5,
+       1.5
+      ],
+      "machining_center_3": [
+       13.5,
+       1.5
+      ],
+      "machining_center_4": [
+       19.5,
+       1.5
+      ],
+      "lathe_1": [
+       25.5,
+       1.5
+      ],
+      "lathe_2": [
+       30.5,
+       1.5
+      ],
+      "lathe_3": [
+       35.5,
+       1.5
+      ],
+      "welding_area_1": [
+       40.5,
+       1.5
+      ],
+      "welding_area_2": [
+       1.5,
+       7.5
+      ],
+      "inspection_area": [
+       8.5,
+       7.5
+      ],
+      "wip_storage_1": [
+       19.5,
+       7.5
+      ],
+      "wip_storage_2": [
+       30.5,
+       7.5
+      ],
+      "packing_area": [
+       1.5,
+       16.5
+      ],
+      "finished_goods_storage": [
+       12.5,
+       16.5
+      ],
+      "shipping_area": [
+       28.5,
+       16.5
+      ],
+      "raw_material_storage": [
+       1.5,
+       27.5
+      ],
+      "cutting_machine_1": [
+       17.5,
+       27.5
+      ],
+      "cutting_machine_2": [
+       22.5,
+       27.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 12,
+     "score": 3488.439685795404,
+     "positions": {
+      "welding_area_2": [
+       1.5,
+       1.5
+      ],
+      "inspection_area": [
+       8.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       19.5,
+       1.5
+      ],
+      "wip_storage_2": [
+       30.5,
+       1.5
+      ],
+      "packing_area": [
+       1.5,
+       10.5
+      ],
+      "finished_goods_storage": [
+       12.5,
+       10.5
+      ],
+      "shipping_area": [
+       28.5,
+       10.5
+      ],
+      "raw_material_storage": [
+       1.5,
+       21.5
+      ],
+      "cutting_machine_1": [
+       17.5,
+       21.5
+      ],
+      "cutting_machine_2": [
+       22.5,
+       21.5
+      ],
+      "machining_center_1": [
+       27.5,
+       21.5
+      ],
+      "machining_center_2": [
+       33.5,
+       21.5
+      ],
+      "machining_center_3": [
+       39.5,
+       21.5
+      ],
+      "machining_center_4": [
+       1.5,
+       32.5
+      ],
+      "lathe_1": [
+       7.5,
+       32.5
+      ],
+      "lathe_2": [
+       12.5,
+       32.5
+      ],
+      "lathe_3": [
+       17.5,
+       32.5
+      ],
+      "welding_area_1": [
+       22.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 3,
+     "score": 3710.6652981293587,
+     "positions": {
+      "cutting_machine_2": [
+       1.5,
+       1.5
+      ],
+      "machining_center_1": [
+       6.5,
+       1.5
+      ],
+      "machining_center_2": [
+       12.5,
+       1.5
+      ],
+      "machining_center_3": [
+       18.5,
+       1.5
+      ],
+      "machining_center_4": [
+       24.5,
+       1.5
+      ],
+      "lathe_1": [
+       30.5,
+       1.5
+      ],
+      "lathe_2": [
+       35.5,
+       1.5
+      ],
+      "lathe_3": [
+       40.5,
+       1.5
+      ],
+      "welding_area_1": [
+       1.5,
+       6.5
+      ],
+      "welding_area_2": [
+       8.5,
+       6.5
+      ],
+      "inspection_area": [
+       15.5,
+       6.5
+      ],
+      "wip_storage_1": [
+       26.5,
+       6.5
+      ],
+      "wip_storage_2": [
+       37.5,
+       6.5
+      ],
+      "packing_area": [
+       1.5,
+       15.5
+      ],
+      "finished_goods_storage": [
+       12.5,
+       15.5
+      ],
+      "shipping_area": [
+       28.5,
+       15.5
+      ],
+      "raw_material_storage": [
+       1.5,
+       26.5
+      ],
+      "cutting_machine_1": [
+       17.5,
+       26.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 11,
+     "score": 3737.078570727994,
+     "positions": {
+      "welding_area_1": [
+       1.5,
+       1.5
+      ],
+      "welding_area_2": [
+       8.5,
+       1.5
+      ],
+      "inspection_area": [
+       15.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       26.5,
+       1.5
+      ],
+      "wip_storage_2": [
+       37.5,
+       1.5
+      ],
+      "packing_area": [
+       1.5,
+       10.5
+      ],
+      "finished_goods_storage": [
+       12.5,
+       10.5
+      ],
+      "shipping_area": [
+       28.5,
+       10.5
+      ],
+      "raw_material_storage": [
+       1.5,
+       21.5
+      ],
+      "cutting_machine_1": [
+       17.5,
+       21.5
+      ],
+      "cutting_machine_2": [
+       22.5,
+       21.5
+      ],
+      "machining_center_1": [
+       27.5,
+       21.5
+      ],
+      "machining_center_2": [
+       33.5,
+       21.5
+      ],
+      "machining_center_3": [
+       39.5,
+       21.5
+      ],
+      "machining_center_4": [
+       1.5,
+       32.5
+      ],
+      "lathe_1": [
+       7.5,
+       32.5
+      ],
+      "lathe_2": [
+       12.5,
+       32.5
+      ],
+      "lathe_3": [
+       17.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 10,
+     "score": 3971.2557306894796,
+     "positions": {
+      "lathe_3": [
+       1.5,
+       1.5
+      ],
+      "welding_area_1": [
+       6.5,
+       1.5
+      ],
+      "welding_area_2": [
+       13.5,
+       1.5
+      ],
+      "inspection_area": [
+       20.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       31.5,
+       1.5
+      ],
+      "wip_storage_2": [
+       1.5,
+       10.5
+      ],
+      "packing_area": [
+       12.5,
+       10.5
+      ],
+      "finished_goods_storage": [
+       23.5,
+       10.5
+      ],
+      "shipping_area": [
+       1.5,
+       21.5
+      ],
+      "raw_material_storage": [
+       14.5,
+       21.5
+      ],
+      "cutting_machine_1": [
+       30.5,
+       21.5
+      ],
+      "cutting_machine_2": [
+       35.5,
+       21.5
+      ],
+      "machining_center_1": [
+       40.5,
+       21.5
+      ],
+      "machining_center_2": [
+       1.5,
+       32.5
+      ],
+      "machining_center_3": [
+       7.5,
+       32.5
+      ],
+      "machining_center_4": [
+       13.5,
+       32.5
+      ],
+      "lathe_1": [
+       19.5,
+       32.5
+      ],
+      "lathe_2": [
+       24.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 1,
+     "score": 4007.002123366505,
+     "positions": {
+      "raw_material_storage": [
+       1.5,
+       1.5
+      ],
+      "cutting_machine_1": [
+       17.5,
+       1.5
+      ],
+      "cutting_machine_2": [
+       22.5,
+       1.5
+      ],
+      "machining_center_1": [
+       27.5,
+       1.5
+      ],
+      "machining_center_2": [
+       33.5,
+       1.5
+      ],
+      "machining_center_3": [
+       39.5,
+       1.5
+      ],
+      "machining_center_4": [
+       1.5,
+       12.5
+      ],
+      "lathe_1": [
+       7.5,
+       12.5
+      ],
+      "lathe_2": [
+       12.5,
+       12.5
+      ],
+      "lathe_3": [
+       17.5,
+       12.5
+      ],
+      "welding_area_1": [
+       22.5,
+       12.5
+      ],
+      "welding_area_2": [
+       29.5,
+       12.5
+      ],
+      "inspection_area": [
+       36.5,
+       12.5
+      ],
+      "wip_storage_1": [
+       1.5,
+       21.5
+      ],
+      "wip_storage_2": [
+       12.5,
+       21.5
+      ],
+      "packing_area": [
+       23.5,
+       21.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       32.5
+      ],
+      "shipping_area": [
+       17.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 2,
+     "score": 4195.13189053924,
+     "positions": {
+      "cutting_machine_1": [
+       1.5,
+       1.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       1.5
+      ],
+      "machining_center_1": [
+       11.5,
+       1.5
+      ],
+      "machining_center_2": [
+       17.5,
+       1.5
+      ],
+      "machining_center_3": [
+       23.5,
+       1.5
+      ],
+      "machining_center_4": [
+       29.5,
+       1.5
+      ],
+      "lathe_1": [
+       35.5,
+       1.5
+      ],
+      "lathe_2": [
+       40.5,
+       1.5
+      ],
+      "lathe_3": [
+       1.5,
+       6.5
+      ],
+      "welding_area_1": [
+       6.5,
+       6.5
+      ],
+      "welding_area_2": [
+       13.5,
+       6.5
+      ],
+      "inspection_area": [
+       20.5,
+       6.5
+      ],
+      "wip_storage_1": [
+       31.5,
+       6.5
+      ],
+      "wip_storage_2": [
+       1.5,
+       15.5
+      ],
+      "packing_area": [
+       12.5,
+       15.5
+      ],
+      "finished_goods_storage": [
+       23.5,
+       15.5
+      ],
+      "shipping_area": [
+       1.5,
+       26.5
+      ],
+      "raw_material_storage": [
+       14.5,
+       26.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 9,
+     "score": 4199.841430371088,
+     "positions": {
+      "lathe_2": [
+       1.5,
+       1.5
+      ],
+      "lathe_3": [
+       6.5,
+       1.5
+      ],
+      "welding_area_1": [
+       11.5,
+       1.5
+      ],
+      "welding_area_2": [
+       18.5,
+       1.5
+      ],
+      "inspection_area": [
+       25.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       36.5,
+       1.5
+      ],
+      "wip_storage_2": [
+       1.5,
+       10.5
+      ],
+      "packing_area": [
+       12.5,
+       10.5
+      ],
+      "finished_goods_storage": [
+       23.5,
+       10.5
+      ],
+      "shipping_area": [
+       1.5,
+       21.5
+      ],
+      "raw_material_storage": [
+       14.5,
+       21.5
+      ],
+      "cutting_machine_1": [
+       30.5,
+       21.5
+      ],
+      "cutting_machine_2": [
+       35.5,
+       21.5
+      ],
+      "machining_center_1": [
+       40.5,
+       21.5
+      ],
+      "machining_center_2": [
+       1.5,
+       32.5
+      ],
+      "machining_center_3": [
+       7.5,
+       32.5
+      ],
+      "machining_center_4": [
+       13.5,
+       32.5
+      ],
+      "lathe_1": [
+       19.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 17,
+     "score": 4242.344421206567,
+     "positions": {
+      "finished_goods_storage": [
+       1.5,
+       1.5
+      ],
+      "shipping_area": [
+       17.5,
+       1.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       1.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       12.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       12.5
+      ],
+      "machining_center_1": [
+       11.5,
+       12.5
+      ],
+      "machining_center_2": [
+       17.5,
+       12.5
+      ],
+      "machining_center_3": [
+       23.5,
+       12.5
+      ],
+      "machining_center_4": [
+       29.5,
+       12.5
+      ],
+      "lathe_1": [
+       35.5,
+       12.5
+      ],
+      "lathe_2": [
+       40.5,
+       12.5
+      ],
+      "lathe_3": [
+       1.5,
+       17.5
+      ],
+      "welding_area_1": [
+       6.5,
+       17.5
+      ],
+      "welding_area_2": [
+       13.5,
+       17.5
+      ],
+      "inspection_area": [
+       20.5,
+       17.5
+      ],
+      "wip_storage_1": [
+       31.5,
+       17.5
+      ],
+      "wip_storage_2": [
+       1.5,
+       26.5
+      ],
+      "packing_area": [
+       12.5,
+       26.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 15,
+     "score": 4353.21162887511,
+     "positions": {
+      "wip_storage_2": [
+       1.5,
+       1.5
+      ],
+      "packing_area": [
+       12.5,
+       1.5
+      ],
+      "finished_goods_storage": [
+       23.5,
+       1.5
+      ],
+      "shipping_area": [
+       1.5,
+       12.5
+      ],
+      "raw_material_storage": [
+       14.5,
+       12.5
+      ],
+      "cutting_machine_1": [
+       30.5,
+       12.5
+      ],
+      "cutting_machine_2": [
+       35.5,
+       12.5
+      ],
+      "machining_center_1": [
+       40.5,
+       12.5
+      ],
+      "machining_center_2": [
+       1.5,
+       23.5
+      ],
+      "machining_center_3": [
+       7.5,
+       23.5
+      ],
+      "machining_center_4": [
+       13.5,
+       23.5
+      ],
+      "lathe_1": [
+       19.5,
+       23.5
+      ],
+      "lathe_2": [
+       24.5,
+       23.5
+      ],
+      "lathe_3": [
+       29.5,
+       23.5
+      ],
+      "welding_area_1": [
+       34.5,
+       23.5
+      ],
+      "welding_area_2": [
+       41.5,
+       23.5
+      ],
+      "inspection_area": [
+       1.5,
+       29.5
+      ],
+      "wip_storage_1": [
+       12.5,
+       29.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 8,
+     "score": 4454.4419886289415,
+     "positions": {
+      "lathe_1": [
+       1.5,
+       1.5
+      ],
+      "lathe_2": [
+       6.5,
+       1.5
+      ],
+      "lathe_3": [
+       11.5,
+       1.5
+      ],
+      "welding_area_1": [
+       16.5,
+       1.5
+      ],
+      "welding_area_2": [
+       23.5,
+       1.5
+      ],
+      "inspection_area": [
+       30.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       1.5,
+       10.5
+      ],
+      "wip_storage_2": [
+       12.5,
+       10.5
+      ],
+      "packing_area": [
+       23.5,
+       10.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       21.5
+      ],
+      "shipping_area": [
+       17.5,
+       21.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       21.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       32.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       32.5
+      ],
+      "machining_center_1": [
+       11.5,
+       32.5
+      ],
+      "machining_center_2": [
+       17.5,
+       32.5
+      ],
+      "machining_center_3": [
+       23.5,
+       32.5
+      ],
+      "machining_center_4": [
+       29.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 16,
+     "score": 4472.807041961172,
+     "positions": {
+      "packing_area": [
+       1.5,
+       1.5
+      ],
+      "finished_goods_storage": [
+       12.5,
+       1.5
+      ],
+      "shipping_area": [
+       28.5,
+       1.5
+      ],
+      "raw_material_storage": [
+       1.5,
+       12.5
+      ],
+      "cutting_machine_1": [
+       17.5,
+       12.5
+      ],
+      "cutting_machine_2": [
+       22.5,
+       12.5
+      ],
+      "machining_center_1": [
+       27.5,
+       12.5
+      ],
+      "machining_center_2": [
+       33.5,
+       12.5
+      ],
+      "machining_center_3": [
+       39.5,
+       12.5
+      ],
+      "machining_center_4": [
+       1.5,
+       23.5
+      ],
+      "lathe_1": [
+       7.5,
+       23.5
+      ],
+      "lathe_2": [
+       12.5,
+       23.5
+      ],
+      "lathe_3": [
+       17.5,
+       23.5
+      ],
+      "welding_area_1": [
+       22.5,
+       23.5
+      ],
+      "welding_area_2": [
+       29.5,
+       23.5
+      ],
+      "inspection_area": [
+       36.5,
+       23.5
+      ],
+      "wip_storage_1": [
+       1.5,
+       32.5
+      ],
+      "wip_storage_2": [
+       12.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 7,
+     "score": 4746.214267199133,
+     "positions": {
+      "machining_center_4": [
+       1.5,
+       1.5
+      ],
+      "lathe_1": [
+       7.5,
+       1.5
+      ],
+      "lathe_2": [
+       12.5,
+       1.5
+      ],
+      "lathe_3": [
+       17.5,
+       1.5
+      ],
+      "welding_area_1": [
+       22.5,
+       1.5
+      ],
+      "welding_area_2": [
+       29.5,
+       1.5
+      ],
+      "inspection_area": [
+       36.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       1.5,
+       10.5
+      ],
+      "wip_storage_2": [
+       12.5,
+       10.5
+      ],
+      "packing_area": [
+       23.5,
+       10.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       21.5
+      ],
+      "shipping_area": [
+       17.5,
+       21.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       21.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       32.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       32.5
+      ],
+      "machining_center_1": [
+       11.5,
+       32.5
+      ],
+      "machining_center_2": [
+       17.5,
+       32.5
+      ],
+      "machining_center_3": [
+       23.5,
+       32.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 18,
+     "score": 4776.630986361523,
+     "positions": {
+      "shipping_area": [
+       1.5,
+       1.5
+      ],
+      "raw_material_storage": [
+       14.5,
+       1.5
+      ],
+      "cutting_machine_1": [
+       30.5,
+       1.5
+      ],
+      "cutting_machine_2": [
+       35.5,
+       1.5
+      ],
+      "machining_center_1": [
+       40.5,
+       1.5
+      ],
+      "machining_center_2": [
+       1.5,
+       12.5
+      ],
+      "machining_center_3": [
+       7.5,
+       12.5
+      ],
+      "machining_center_4": [
+       13.5,
+       12.5
+      ],
+      "lathe_1": [
+       19.5,
+       12.5
+      ],
+      "lathe_2": [
+       24.5,
+       12.5
+      ],
+      "lathe_3": [
+       29.5,
+       12.5
+      ],
+      "welding_area_1": [
+       34.5,
+       12.5
+      ],
+      "welding_area_2": [
+       41.5,
+       12.5
+      ],
+      "inspection_area": [
+       1.5,
+       18.5
+      ],
+      "wip_storage_1": [
+       12.5,
+       18.5
+      ],
+      "wip_storage_2": [
+       23.5,
+       18.5
+      ],
+      "packing_area": [
+       34.5,
+       18.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       29.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 6,
+     "score": 5065.533409320097,
+     "positions": {
+      "machining_center_3": [
+       1.5,
+       1.5
+      ],
+      "machining_center_4": [
+       7.5,
+       1.5
+      ],
+      "lathe_1": [
+       13.5,
+       1.5
+      ],
+      "lathe_2": [
+       18.5,
+       1.5
+      ],
+      "lathe_3": [
+       23.5,
+       1.5
+      ],
+      "welding_area_1": [
+       28.5,
+       1.5
+      ],
+      "welding_area_2": [
+       35.5,
+       1.5
+      ],
+      "inspection_area": [
+       1.5,
+       7.5
+      ],
+      "wip_storage_1": [
+       12.5,
+       7.5
+      ],
+      "wip_storage_2": [
+       23.5,
+       7.5
+      ],
+      "packing_area": [
+       34.5,
+       7.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       18.5
+      ],
+      "shipping_area": [
+       17.5,
+       18.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       18.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       29.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       29.5
+      ],
+      "machining_center_1": [
+       11.5,
+       29.5
+      ],
+      "machining_center_2": [
+       17.5,
+       29.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 5,
+     "score": 5154.113695516516,
+     "positions": {
+      "machining_center_2": [
+       1.5,
+       1.5
+      ],
+      "machining_center_3": [
+       7.5,
+       1.5
+      ],
+      "machining_center_4": [
+       13.5,
+       1.5
+      ],
+      "lathe_1": [
+       19.5,
+       1.5
+      ],
+      "lathe_2": [
+       24.5,
+       1.5
+      ],
+      "lathe_3": [
+       29.5,
+       1.5
+      ],
+      "welding_area_1": [
+       34.5,
+       1.5
+      ],
+      "welding_area_2": [
+       41.5,
+       1.5
+      ],
+      "inspection_area": [
+       1.5,
+       7.5
+      ],
+      "wip_storage_1": [
+       12.5,
+       7.5
+      ],
+      "wip_storage_2": [
+       23.5,
+       7.5
+      ],
+      "packing_area": [
+       34.5,
+       7.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       18.5
+      ],
+      "shipping_area": [
+       17.5,
+       18.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       18.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       29.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       29.5
+      ],
+      "machining_center_1": [
+       11.5,
+       29.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 13,
+     "score": 5236.920865185085,
+     "positions": {
+      "inspection_area": [
+       1.5,
+       1.5
+      ],
+      "wip_storage_1": [
+       12.5,
+       1.5
+      ],
+      "wip_storage_2": [
+       23.5,
+       1.5
+      ],
+      "packing_area": [
+       34.5,
+       1.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       12.5
+      ],
+      "shipping_area": [
+       17.5,
+       12.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       12.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       23.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       23.5
+      ],
+      "machining_center_1": [
+       11.5,
+       23.5
+      ],
+      "machining_center_2": [
+       17.5,
+       23.5
+      ],
+      "machining_center_3": [
+       23.5,
+       23.5
+      ],
+      "machining_center_4": [
+       29.5,
+       23.5
+      ],
+      "lathe_1": [
+       35.5,
+       23.5
+      ],
+      "lathe_2": [
+       40.5,
+       23.5
+      ],
+      "lathe_3": [
+       1.5,
+       28.5
+      ],
+      "welding_area_1": [
+       6.5,
+       28.5
+      ],
+      "welding_area_2": [
+       13.5,
+       28.5
+      ]
+     }
+    },
+    {
+     "candidate_id": 14,
+     "score": 5236.943368242788,
+     "positions": {
+      "wip_storage_1": [
+       1.5,
+       1.5
+      ],
+      "wip_storage_2": [
+       12.5,
+       1.5
+      ],
+      "packing_area": [
+       23.5,
+       1.5
+      ],
+      "finished_goods_storage": [
+       1.5,
+       12.5
+      ],
+      "shipping_area": [
+       17.5,
+       12.5
+      ],
+      "raw_material_storage": [
+       30.5,
+       12.5
+      ],
+      "cutting_machine_1": [
+       1.5,
+       23.5
+      ],
+      "cutting_machine_2": [
+       6.5,
+       23.5
+      ],
+      "machining_center_1": [
+       11.5,
+       23.5
+      ],
+      "machining_center_2": [
+       17.5,
+       23.5
+      ],
+      "machining_center_3": [
+       23.5,
+       23.5
+      ],
+      "machining_center_4": [
+       29.5,
+       23.5
+      ],
+      "lathe_1": [
+       35.5,
+       23.5
+      ],
+      "lathe_2": [
+       40.5,
+       23.5
+      ],
+      "lathe_3": [
+       1.5,
+       28.5
+      ],
+      "welding_area_1": [
+       6.5,
+       28.5
+      ],
+      "welding_area_2": [
+       13.5,
+       28.5
+      ],
+      "inspection_area": [
+       20.5,
+       28.5
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
